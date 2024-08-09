@@ -36,9 +36,8 @@ var app = builder.Build();
 app.UseAuthentication();
 
 app.MapGet("/username", (HttpContext ctx) => 
-{
-    
-    return ctx.User.FindFirst("usr").Value;
+{    
+    return ctx.User.FindFirst("usr")?.Value;
 });
 
 app.MapGet("/login", async (HttpContext ctx) => 
