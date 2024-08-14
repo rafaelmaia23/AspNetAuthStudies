@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetAuth", "AspNetAuth\As
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authorization", "Authorization\Authorization.csproj", "{896301E1-733D-4DBA-8CF7-460D2FDFF5B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roles", "Roles\Roles.csproj", "{49CBE0B8-1BFB-4F06-9A11-100A5338A0C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RolesIdentity", "RolesIdentity\RolesIdentity.csproj", "{637D63CB-4E69-41F5-93E4-8876A4AE699B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{896301E1-733D-4DBA-8CF7-460D2FDFF5B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{896301E1-733D-4DBA-8CF7-460D2FDFF5B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{896301E1-733D-4DBA-8CF7-460D2FDFF5B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49CBE0B8-1BFB-4F06-9A11-100A5338A0C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49CBE0B8-1BFB-4F06-9A11-100A5338A0C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49CBE0B8-1BFB-4F06-9A11-100A5338A0C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49CBE0B8-1BFB-4F06-9A11-100A5338A0C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{637D63CB-4E69-41F5-93E4-8876A4AE699B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{637D63CB-4E69-41F5-93E4-8876A4AE699B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{637D63CB-4E69-41F5-93E4-8876A4AE699B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{637D63CB-4E69-41F5-93E4-8876A4AE699B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
